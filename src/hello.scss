@@ -1,0 +1,12 @@
+body {
+  background: aliceblue;
+
+  div {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid red;
+    &.active {
+      font-size: 3rem;
+    }
+  }
+}
